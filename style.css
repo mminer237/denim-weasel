@@ -1,6 +1,6 @@
 @font-face {
   font-family: snellen;
-  src: url(./Snellen-BF-Big.ttf);
+  src: url("./Snellen-BF-Big.ttf");
 }
 @media print
 {    
