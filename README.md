@@ -1,25 +1,5 @@
-Welcome to the HyperDev BETA
-============================
+This is a simple Snellen chart generator that I made in the HyperDev BETA by Fog Creek.
 
-Click `"Show"` in the header to see your app live. Updates to your code will instantly deploy and update live.
+Original site is at: https://denim-weasel.hyperdev.space/
 
-HyperDev is a developer playground that lets you code a real web-app without the slow setup and deployment steps. 
-
-
-Your Project
-------------
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env`
-
-On the front-end,
-- edit `client.js`, `style.css` and `index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-
-Made by Fog Creek
------------------
-
-\ ゜o゜)ノ
+HyperDev's site is https://hyperdev.com/
