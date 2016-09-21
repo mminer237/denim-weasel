@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snellen Chart Generator</title>
+    <meta name="description" content="A cool thing made with HyperDev">
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="cdiv" class="container">
+      <section id="letters">
+        <p id="p1">E</p>
+        <p id="p2">FP</p>
+        <p id="p3">TOZ</p>
+        <p id="p4">LPED</p>
+        <p id="p5">PECFD</p>
+        <p id="p6">EDFCZP</p>
+        <div id="green_block"></div>
+        <p id="p7">FELOPZD</p>
+        <p id="p8">DEFPOTEC</p>
+        <div id="red_block"></div>
+        <p id="p9">LEFODPCT</p>
+        <p id="p10">FDPLTCEO</p>
+        <p id="p11">PEZOLCFTD</p>
+        <div id="blue_block"></div>
+        <p id="p12">PEZOLCFTD</p>
+        <p id="p13">PEZOLCFTD</p>
+        <p id="p14">PEZOLCFTDO</p>
+        <p id="p15">PEZOLCFTDO</p>
+        <p id="p16">PEZOLCFTDO</p>
+      </section>
+      <aside id="acuities">
+        <p id="a2p1">20/200</p>
+        <p id="a2p2">20/100</p>
+        <p id="a2p3">20/70</p>
+        <p id="a2p4">20/50</p>
+        <p id="a2p5">20/40</p>
+        <p id="a2p6">20/30</p>
+        
+        <p id="a2p7">20/25</p>
+        <p id="a2p8">20/20</p>
+        
+        <p id="a2p9">20/15</p>
+        <p id="a2p10">20/12½</p>
+        <p id="a2p11">20/10</p>
+        
+        <p id="a2p12">20/9</p>
+        <p id="a2p13">20/8</p>
+        <p id="a2p14">20/7</p>
+        <p id="a2p15">20/6</p>
+        <p id="a2p16">20/5</p>
+      </aside>
+      <aside id="numbers">
+        <p id="ap1">1</p>
+        <p id="ap2">2</p>
+        <p id="ap3">3</p>
+        <p id="ap4">4</p>
+        <p id="ap5">5</p>
+        <p id="ap6">6</p>
+        
+        <p id="ap7">7</p>
+        <p id="ap8">8</p>
+        
+        <p id="ap9">9</p>
+        <p id="ap10">10</p>
+        <p id="ap11">11</p>
+        
+        <p id="ap12">12</p>
+        <p id="ap13">13</p>
+        <p id="ap14">14</p>
+        <p id="ap15">15</p>
+        <p id="ap16">16</p>
+      </aside>
+    </div>
+    <div id="newButtonEtc" class='no-print'>
+      <input type="button" id="newButton" value="Generate New Chart" onclick="newChart()"/><br>
+      <input type="number" id="scaleBox" value="10">feet away
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
