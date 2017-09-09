@@ -1,5 +1,5 @@
-This is a simple Snellen chart generator that I made in the HyperDev BETA by Fog Creek.
+This is a simple Snellen chart generator that I made in the HyperDev BETA (now Glitch) by Fog Creek.
 
-Original site is at: https://denim-weasel.hyperdev.space/
+Original site is at: https://denim-weasel.glitch.me/
 
-HyperDev's site is https://hyperdev.com/
+Glitch's site is https://glitch.me/
